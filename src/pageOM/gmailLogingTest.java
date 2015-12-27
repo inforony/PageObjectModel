@@ -10,6 +10,7 @@ public class gmailLogingTest {
 		driver.get("https://gmail.com");
 		loginpage lg = new loginpage(driver);
 		lg.txtbox.sendKeys("inforony0");
+		lg.clicklink.click();
 	}
 
 }
