@@ -17,5 +17,11 @@ public class loginpage {
 	
 	@FindBy(id="next")
 	public WebElement clicklink;
+	
+	@FindBy(name="Passwd")
+	public WebElement passward;
+	
+	@FindBy(id="signIn")
+	public WebElement click;
 
 }
